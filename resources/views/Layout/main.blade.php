@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Movie App</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     @livewireStyles
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -26,7 +26,7 @@
                      <a href="{{ route('actor.index') }}" class="hover:text-slate-400">Actors</a>
                   </div>
                   {{-- search dropdown --}}
-                  <div class="md:mt-0 mt-5">
+                  <div class="md:mt-0 mt-5 md:w-64 w-full">
                         <livewire:search-dropdown />
                   </div>
             </div>

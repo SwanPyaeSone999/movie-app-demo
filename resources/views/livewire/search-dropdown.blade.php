@@ -11,7 +11,7 @@
         @keyup.escape.window="isOpen = false"
         @keyup.shift.enter="isOpen != false "
 
-        class="px-8 text-sm py-1 bg-gray-800 rounded-full w-64
+        class="px-8 text-sm py-1 bg-gray-800 rounded-full md:w-64 w-full
         focus:outline-none focus:ring  focus:ring-gray-700"
         >
         <div wire:loading class="absolute top-1 right-1">
